@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Power BI Portfolio</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial; margin:0; padding:0; color:#222; }
+    header { background:#0b6; padding:28px; color:white; text-align:center; }
+    .container { max-width:960px; margin:28px auto; padding:0 16px; }
+    h1 { margin:0 0 6px 0; font-size:28px; }
+    p.lead { margin:6px 0 18px 0; color:#333; }
+    .projects { display:flex; flex-direction:column; gap:14px; }
+    .card { border:1px solid #e6e6e6; padding:14px; border-radius:8px; background:white; }
+    .card img { max-width:100%; display:block; margin-bottom:10px; border-radius:4px; }
+    .meta { font-size:13px; color:#666; margin-bottom:8px; }
+    footer { text-align:center; margin:28px 0; color:#666; font-size:13px; }
+    a { color:#0b6; text-decoration:none; }
+    .skills { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+    .skill { background:#f0f0f0; padding:6px 8px; border-radius:6px; font-size:13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Your Name</h1>
+      <p class="lead">Power BI Developer • Data storyteller • SQL & DAX</p>
+      <p><a href="#projects">See projects ↓</a> • <a href="mailto:you@example.com">you@example.com</a></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About me</h2>
+      <p>Short sentence about who you are and the type of dashboards you build (e.g., sales, finance, HR).</p>
+      <div class="skills">
+        <div class="skill">Power BI</div>
+        <div class="skill">DAX</div>
+        <div class="skill">Power Query</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Excel</div>
+      </div>
+    </section>
+
+    <section id="projects" style="margin-top:18px">
+      <h2>Projects</h2>
+      <div class="projects">
+        <!-- Project 1 -->
+        <article class="card">
+          <h3>Sales Performance Dashboard</h3>
+          <div class="meta">Tools: Power BI • DAX • SQL • 2025</div>
+          <img src="images/sales-dashboard.png" alt="Sales dashboard screenshot"/>
+          <p><strong>Problem:</strong> Sales team needed monthly performance and top products overview. <strong>Solution:</strong> Interactive dashboard with trend analysis, product filters, and KPI tiles.</p>
+          <p><strong>Skills used:</strong> Data modelling, DAX measures, drill-through, bookmarks.</p>
+          <p><a href="projects/sales.md">Read case study</a> • <a href="files/sales.pbix">Download PBIX</a></p>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card">
+          <h3>HR Attrition Dashboard</h3>
+          <div class="meta">Tools: Power BI • Power Query • Excel • 2024</div>
+          <img src="images/hr-dashboard.png" alt="HR dashboard screenshot"/>
+          <p>Short description of the problem, approach, and impact (e.g., helped HR reduce turnover by identifying at-risk groups).</p>
+          <p><a href="projects/hr.md">Read case study</a></p>
+        </article>
+
+      </div>
+    </section>
+
+    <section style="margin-top:18px" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a> • LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+    </section>
+  </main>
+
+  <footer>
+    Built with ❤️ • © <span id="year"></span> Your Name
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

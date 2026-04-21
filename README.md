@@ -29,5 +29,5 @@ SQL Server • Azure SQL • Power Automate • Excel
 ---
 
 ## 📬 Contact
-📧 Email: your@email.com  
-💼 LinkedIn: https://linkedin.com/in/yourprofile
+📧 Email: ukanibhavesh00@email.com  
+💼 LinkedIn: https://linkedin.com/in/bhaveshukani

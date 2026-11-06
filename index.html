@@ -1,83 +1,159 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Bhavesh Ukani — Power BI Portfolio</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial; margin:0; padding:0; color:#222; }
-    header { background:#0b6; padding:28px; color:white; text-align:center; }
-    .container { max-width:960px; margin:28px auto; padding:0 16px; }
-    h1 { margin:0 0 6px 0; font-size:28px; }
-    p.lead { margin:6px 0 18px 0; color:#333; }
-    .projects { display:flex; flex-direction:column; gap:14px; }
-    .card { border:1px solid #e6e6e6; padding:14px; border-radius:8px; background:white; }
-    .card img { max-width:100%; display:block; margin-bottom:10px; border-radius:4px; }
-    .meta { font-size:13px; color:#666; margin-bottom:8px; }
-    footer { text-align:center; margin:28px 0; color:#666; font-size:13px; }
-    a { color:#0b6; text-decoration:none; }
-    .skills { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
-    .skill { background:#f0f0f0; padding:6px 8px; border-radius:6px; font-size:13px; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bhavesh Ukani | Power BI Developer &amp; Microsoft Fabric</title>
+<meta name="description" content="Freelance Power BI developer. KPI dashboards, DAX, Microsoft Fabric data models and reporting automation for operations, commercial and finance teams.">
+<meta property="og:title" content="Bhavesh Ukani | Power BI Developer">
+<meta property="og:description" content="Dashboards, data models and reporting automation your team can trust.">
+<meta name="theme-color" content="#252423">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='16' width='7' height='13' rx='1' fill='%23c79d00'/%3E%3Crect x='12' y='9' width='7' height='20' rx='1' fill='%23e8b800'/%3E%3Crect x='21' y='2' width='7' height='27' rx='1' fill='%23f2c811'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Bhavesh Ukani</h1>
-      <p class="lead">Power BI Developer • Data storyteller • SQL & DAX</p>
-      <p><a href="#projects">See projects ↓</a> • <a href="mailto:ukanibhavesh00@gmail.com">ukanibhavesh00@gmail</a></p>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="title">
+  <a class="logo" href="#overview" aria-label="Bhavesh Ukani, home">
+    <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><rect x="3" y="16" width="7" height="13" rx="1" fill="#c79d00"/><rect x="12" y="9" width="7" height="20" rx="1" fill="#e8b800"/><rect x="21" y="2" width="7" height="27" rx="1" fill="#f2c811"/></svg>
+    <b>Bhavesh Ukani</b><span>Portfolio report</span>
+  </a>
+  <a class="btn" href="#contact">Hire me</a>
+</header>
+
+<nav class="rail" id="nav" aria-label="Report pages">
+  <a href="#overview" class="on">Overview</a>
+  <a href="#services">Services</a>
+  <a href="#work">Work</a>
+  <a href="#experience">Experience</a>
+  <a href="#process">Process</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main id="main" class="canvas">
+  <section id="overview" class="page">
+    <div class="tile hero">
+      <p class="muted">Available for freelance projects</p>
+      <h1>Power BI reports your team trusts on Monday morning.</h1>
+      <p class="lead">I'm Bhavesh, a Power BI developer with 6+ years in data roles. I model the data, write the DAX and build dashboards that answer the questions managers actually ask.</p>
+      <div class="actions"><a class="btn" href="#contact">Start a project</a><a class="btn ghost" href="#work">See selected work</a></div>
+      <p class="chips"><span>6+ years in data roles</span><span>Power BI</span><span>Microsoft Fabric</span><span>Maritime, finance, commercial</span></p>
     </div>
-  </header>
 
-  <main class="container">
-    <section id="about" class="card">
-      <h2>About me</h2>
-      <p>Short sentence about who you are and the type of dashboards you build (e.g., sales, finance, HR).</p>
-      <div class="skills">
-        <div class="skill">Power BI</div>
-        <div class="skill">DAX</div>
-        <div class="skill">Power Query</div>
-        <div class="skill">SQL</div>
-        <div class="skill">Excel</div>
+    <div class="tile mock" aria-hidden="true">
+      <div class="th"><h2>Sample report page</h2><span class="muted">Illustration</span></div>
+      <div class="mk">
+        <div class="mc" style="--c:#f2c811"><b>Revenue</b><span>On target</span></div>
+        <div class="mc" style="--c:#118dff"><b>Response time</b><span>Within SLA</span></div>
+        <div class="mc" style="--c:#01b8aa"><b>Open tasks</b><span>Down this week</span></div>
       </div>
-    </section>
-
-    <section id="projects" style="margin-top:18px">
-      <h2>Projects</h2>
-      <div class="projects">
-        <!-- Project 1 -->
-        <article class="card">
-          <h3>Sales Performance Dashboard</h3>
-          <div class="meta">Tools: Power BI • DAX • SQL • 2025</div>
-          <img src="images/sales-dashboard.png" alt="Sales dashboard screenshot"/>
-          <p><strong>Problem:</strong> Sales team needed monthly performance and top products overview. <strong>Solution:</strong> Interactive dashboard with trend analysis, product filters, and KPI tiles.</p>
-          <p><strong>Skills used:</strong> Data modelling, DAX measures, drill-through, bookmarks.</p>
-          <p><a href="projects/sales.md">Read case study</a> • <a href="files/sales.pbix">Download PBIX</a></p>
-        </article>
-
-        <!-- Project 2 -->
-        <article class="card">
-          <h3>HR Attrition Dashboard</h3>
-          <div class="meta">Tools: Power BI • Power Query • Excel • 2024</div>
-          <img src="images/hr-dashboard.png" alt="HR dashboard screenshot"/>
-          <p>Short description of the problem, approach, and impact (e.g., helped HR reduce turnover by identifying at-risk groups).</p>
-          <p><a href="projects/hr.md">Read case study</a></p>
-        </article>
-
+      <div class="mrow">
+        <div class="mb"><i style="--h:38%"></i><i style="--h:55%"></i><i style="--h:44%"></i><i style="--h:71%"></i><i style="--h:62%"></i><i style="--h:88%"></i><i class="hi" style="--h:100%"></i></div>
+        <div class="donut"></div>
       </div>
-    </section>
+      <p class="muted">Headline numbers on top, trends below, drill-through behind.</p>
+    </div>
 
-    <section style="margin-top:18px" class="card">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a> • LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
-    </section>
-  </main>
+    <div class="tile results">
+      <h2>Results from my work</h2>
+      <ul>
+        <li><b>Guard deployment tracking.</b> Utilisation rose from 60-65% to 75% after I automated the daily tracking.</li>
+        <li><b>Finance reporting.</b> Manual reporting time fell by 27% with a new Power BI dashboard.</li>
+        <li><b>Report speed.</b> Refresh and load times dropped by 30% after DAX and Power Query tuning.</li>
+        <li><b>Compliance reporting.</b> Overdue tasks fell by 25% once the team could see them clearly.</li>
+      </ul>
+    </div>
+  </section>
 
-  <footer>
-    Built with ❤️ • © <span id="year"></span> Your Name
-  </footer>
+  <section id="services" class="page">
+    <h2 class="ph">What I can do for you</h2>
+    <div class="cards">
+      <article class="tile"><h3>Dashboards and KPI reporting</h3><p>Executive and operational Power BI reports with agreed KPI definitions, drill-through and role-based views.</p></article>
+      <article class="tile"><h3>Data modelling, DAX and Fabric</h3><p>Star schemas and semantic models with measures kept in one place, so numbers match on every page. Lakehouse and Dataflows Gen2 builds in Microsoft Fabric.</p></article>
+      <article class="tile"><h3>Report rescue and performance</h3><p>Slow or distrusted reports reviewed, simplified and rebuilt around what users need.</p></article>
+      <article class="tile"><h3>Reporting automation</h3><p>SQL, Power Query, REST API ingestion and Power Automate to remove manual spreadsheet work, send alerts and refresh on a schedule.</p></article>
+    </div>
+  </section>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <section id="work" class="page">
+    <h2 class="ph">Selected work</h2>
+    <p class="muted">Professional projects are anonymised. Select a project to read the problem and approach.</p>
+    <div class="slicer" id="filters" role="group" aria-label="Filter projects">
+      <button class="on" data-f="all">All</button><button data-f="Professional">Professional</button><button data-f="Independent">Independent</button><button data-f="Academic">Academic</button>
+    </div>
+    <div class="cards three" id="projects"></div>
+  </section>
+
+  <section id="experience" class="page">
+    <h2 class="ph">Experience</h2>
+    <div class="tile table">
+      <div class="row"><div><h3>Power BI Report Developer</h3><span class="muted">Ambrey Analytics, Southampton UK<br>Nov 2024 to present</span></div><p>Enterprise dashboards for Operations, Projects, Digital, Analytics, Finance and Commercial teams. Fabric Lakehouse and semantic models, third-party API integration, and report refresh and load times cut by 30% through DAX and Power Query optimisation. Compliance and maritime reporting reduced overdue tasks by 25%.</p></div>
+      <div class="row"><div><h3>Data Quality Specialist</h3><span class="muted">Homesome Inc., USA (remote)<br>May 2021 to Jul 2022</span></div><p>Cleansed and enriched e-commerce grocery product data to 98% accuracy. A standard data-mapping framework cut catalogue maintenance time by 21%.</p></div>
+      <div class="row"><div><h3>Data Analyst</h3><span class="muted">Expo Business Connection, Poland<br>Mar 2020 to Jan 2021</span></div><p>Excel and Power BI dashboards for inventory decisions, plus sales and inventory forecasting models that improved forecast accuracy by 10%.</p></div>
+      <div class="row"><div><h3>Database Administrator</h3><span class="muted">Qsek Solution, India<br>Aug 2015 to Nov 2017</span></div><p>Administered MySQL databases and cut query execution time by 20%. Employee of the Year.</p></div>
+    </div>
+    <p class="muted edu">Education: MSc Data Analytics, University of Portsmouth. MA International Economy and Trade. BE Production Engineering. Languages: English (fluent), Hindi (native), Polish (basic).</p>
+  </section>
+
+  <section id="process" class="page">
+    <h2 class="ph">How a project runs</h2>
+    <ol class="steps">
+      <li><b>Scoping call.</b> We agree who uses the report and the decisions it supports.</li>
+      <li><b>Written requirements.</b> Data sources, keys, KPI definitions and existing Excel reports are documented.</li>
+      <li><b>Timeline agreed.</b> Milestones and deadlines are confirmed before build starts.</li>
+      <li><b>Model and build.</b> Data is cleaned and modelled, then the report is built on a validated dataset.</li>
+      <li><b>Review with you.</b> You test the numbers against your own and we refine together.</li>
+      <li><b>Handover.</b> Documentation of measures and data flow, plus a team walkthrough.</li>
+    </ol>
+  </section>
+
+  <section id="skills" class="page">
+    <h2 class="ph">Skills and tools</h2>
+    <div class="cards">
+      <article class="tile"><h3>BI and reporting</h3><p class="chips"><span>Power BI</span><span>Advanced DAX</span><span>Power Query</span><span>Microsoft Fabric</span><span>Lakehouse</span><span>Dataflows Gen2</span><span>Semantic models</span><span>Excel</span></p></article>
+      <article class="tile"><h3>Data and integration</h3><p class="chips"><span>SQL Server</span><span>MySQL</span><span>Azure SQL</span><span>ETL</span><span>REST APIs</span><span>Python</span><span>R</span><span>Dataverse</span></p></article>
+      <article class="tile"><h3>Power Platform</h3><p class="chips"><span>Power Automate</span><span>Power Apps</span><span>Copilot Studio</span><span>Dynamics 365</span><span>SharePoint</span><span>Teams</span></p></article>
+      <article class="tile"><h3>How I work</h3><p class="chips"><span>Requirement gathering</span><span>KPI definition</span><span>UAT</span><span>Documentation</span><span>Plain-English communication</span></p></article>
+    </div>
+  </section>
+
+  <section id="contact" class="page">
+    <h2 class="ph">Tell me about your report</h2>
+    <div class="cards two">
+      <div class="tile">
+        <p>Send a few lines on what you need and when. I'll reply with questions or a proposed next step.</p>
+        <ul class="links">
+          <li><a href="mailto:ukanibhavesh00@gmail.com">ukanibhavesh00@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/YOUR-HANDLE" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/YOUR-USERNAME" rel="noopener">GitHub</a></li>
+          <li><a href="assets/Bhavesh_Ukani_CV.pdf">Download CV</a></li>
+        </ul>
+        <h3 class="faqh">Quick answers</h3>
+        <details><summary>How can we work together?</summary><p>Fixed-scope builds, hourly support or a short review of an existing report.</p></details>
+        <details><summary>Can you use our existing data?</summary><p>Yes: Excel, SQL sources, Dataverse and APIs. Every source and refresh step is documented.</p></details>
+        <details><summary>How is confidential data handled?</summary><p>I only need the access the project requires, can start on masked or sample data, and keep client details out of portfolio material.</p></details>
+        <details><summary>What do you need for a quote?</summary><p>A short description of the report, your data sources, who will use it and your target date.</p></details>
+      </div>
+      <form class="tile" id="contactForm">
+        <label>Your name<input name="name" required autocomplete="name"></label>
+        <label>Email<input name="email" type="email" required autocomplete="email"></label>
+        <label>Project type<select name="type"><option>Dashboard build</option><option>Data model or DAX</option><option>Fix an existing report</option><option>Automation</option><option>Not sure yet</option></select></label>
+        <label>What do you need?<textarea name="message" rows="5" required></textarea></label>
+        <button class="btn" type="submit">Open email draft</button>
+        <p class="muted" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot"><span>&copy; <span id="yr"></span> Bhavesh Ukani</span><span class="muted">Built like a report: model first, visuals second.</span></footer>
+
+<dialog id="modal" aria-labelledby="mTitle">
+  <button id="mClose" aria-label="Close">&times;</button>
+  <p id="mKicker" class="muted"></p><h3 id="mTitle"></h3><p id="mTags" class="chips"></p><div id="mBody"></div>
+</dialog>
+<script src="script.js"></script>
 </body>
 </html>
